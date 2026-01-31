@@ -1,0 +1,21 @@
+{
+  "name": "document-skills",
+  "version": "1.0.0",
+  "author": "pandysp",
+  "description": "Curated document processing skills (forked from anthropics/skills)",
+  "plugins": [
+    {
+      "name": "document-skills",
+      "description": "Document processing suite: Excel, Word, PowerPoint, PDF, canvas design, and doc co-authoring",
+      "source": "./",
+      "skills": [
+        "canvas-design",
+        "doc-coauthoring",
+        "docx",
+        "pdf",
+        "pptx",
+        "xlsx"
+      ]
+    }
+  ]
+}
